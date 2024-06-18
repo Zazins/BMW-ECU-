@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Tue Jun 18 13:32:30 UTC 2024
+// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Tue Jun 18 13:43:13 UTC 2024
 // by class com.rusefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -4573,8 +4573,16 @@ struct engine_configuration_s {
 	 */
 	linear_sensor_s acPressure;
 	/**
-	 * units: units
 	 * offset 4032
+	 */
+	uint16_t minAcPressure;
+	/**
+	 * offset 4034
+	 */
+	uint16_t maxAcPressure;
+	/**
+	 * units: units
+	 * offset 4036
 	 */
 	uint8_t unusedOftenChangesDuringFirmwareUpdate[END_OF_CALIBRATION_PADDING];
 	/**
@@ -4831,15 +4839,7 @@ struct persistent_config_s {
 	/**
 	 * offset 5324
 	 */
-	uint16_t minAcPressure;
-	/**
-	 * offset 5326
-	 */
-	uint16_t maxAcPressure;
-	/**
-	 * offset 5328
-	 */
-	uint8_t unusedGapHere[12];
+	uint8_t unusedGapHere[16];
 	/**
 	 * offset 5340
 	 */
@@ -5661,4 +5661,4 @@ struct persistent_config_s {
 static_assert(sizeof(persistent_config_s) == 22752);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Tue Jun 18 13:32:30 UTC 2024
+// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Tue Jun 18 13:43:13 UTC 2024

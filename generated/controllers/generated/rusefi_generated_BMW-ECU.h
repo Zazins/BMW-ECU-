@@ -329,7 +329,7 @@
 #define ego_sensor_e_ES_Innovate_MTX_L 1
 #define ego_sensor_e_ES_PLX 4
 #define EGT_CHANNEL_COUNT 8
-#define END_OF_CALIBRATION_PADDING 178
+#define END_OF_CALIBRATION_PADDING 174
 #define engine_configuration_s_size 4212
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",100="LM_MOCK",1="LM_REAL_MAF"
 #define engine_load_mode_e_enum "Speed Density", "MAF Air Charge", "Alpha-N", "Lua"
@@ -1270,11 +1270,11 @@
 #define SentEtbType_FORD_TYPE_1 2
 #define SentEtbType_GM_TYPE_1 1
 #define SentEtbType_NONE 0
-#define show_Frankenso_presets false
+#define show_Frankenso_presets true
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
-#define show_test_presets false
-#define SIGNATURE_HASH 2350820797
+#define show_test_presets true
+#define SIGNATURE_HASH 1251071004
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1584,7 +1584,7 @@
 #define ts_show_clt_iat_pullup true
 #define ts_show_clutch_down true
 #define ts_show_clutch_up true
-#define ts_show_communityCommsLedPid false
+#define ts_show_communityCommsLedPid true
 #define ts_show_compression_ratio false
 #define ts_show_cylinder_10 true
 #define ts_show_cylinder_11 true
@@ -1601,7 +1601,7 @@
 #define ts_show_debug_mode false
 #define ts_show_egt true
 #define ts_show_etb true
-#define ts_show_etb_pins false
+#define ts_show_etb_pins true
 #define ts_show_experimental true
 #define ts_show_fan2_settings true
 #define ts_show_fancy_hardware false
@@ -1623,11 +1623,11 @@
 #define ts_show_ign_key_analog_input false
 #define ts_show_ign_key_switch false
 #define ts_show_ignitionPinMode true
-#define ts_show_inj_diag false
+#define ts_show_inj_diag true
 #define ts_show_injection_mode true
 #define ts_show_injection_phase true
 #define ts_show_injectionPinMode false
-#define ts_show_k_line false
+#define ts_show_k_line true
 #define ts_show_l9779 false
 #define ts_show_maf true
 #define ts_show_main_relay true
@@ -1635,14 +1635,14 @@
 #define ts_show_mc33810 false
 #define ts_show_number_of_cylinders true
 #define ts_show_odd_fire true
-#define ts_show_onboard_accelerometer false
-#define ts_show_output_diag false
+#define ts_show_onboard_accelerometer true
+#define ts_show_output_diag true
 #define ts_show_popular_vehicles true
 #define ts_show_reset_calibrations false
 #define ts_show_rotary true
 #define ts_show_sd_card true
 #define ts_show_sd_pins true
-#define ts_show_software_knock false
+#define ts_show_software_knock true
 #define ts_show_speedo_settings true
 #define ts_show_spi true
 #define ts_show_spi2_enable true
@@ -1657,17 +1657,17 @@
 #define ts_show_top_level_can_menu true
 #define ts_show_tps2 true
 #define ts_show_tps2_error true
-#define ts_show_tps_sent false
+#define ts_show_tps_sent true
 #define ts_show_trigger_comparator false
 #define ts_show_tunerstudio_port true
 #define ts_show_vbatt true
 #define ts_show_vehicle_speed_sensor true
 #define ts_show_vehicle_weight false
-#define ts_show_vr_threshold_2 false
-#define ts_show_vr_threshold_all false
+#define ts_show_vr_threshold_2 true
+#define ts_show_vr_threshold_all true
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI main.2024.06.18.BMW-ECU.2350820797"
+#define TS_SIGNATURE "rusEFI main.2024.06.18.BMW-ECU.1251071004"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
