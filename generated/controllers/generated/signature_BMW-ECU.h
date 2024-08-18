@@ -2,5 +2,5 @@
 // was generated automatically by rusEFI tool config_definition-all.jar based on gen_config.sh by SignatureConsumer
 //
 
-#define SIGNATURE_HASH 3776771626
-#define TS_SIGNATURE "rusEFI main.2024.08.17.BMW-ECU.3776771626"
+#define SIGNATURE_HASH 754148953
+#define TS_SIGNATURE "rusEFI main.2024.08.18.BMW-ECU.754148953"
