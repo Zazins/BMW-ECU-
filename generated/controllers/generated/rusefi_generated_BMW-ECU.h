@@ -645,7 +645,7 @@
 #define GAUGE_NAME_TCHARGE "Air: SD tCharge"
 #define GAUGE_NAME_THROTTLE_PEDAL "Throttle pedal position"
 #define GAUGE_NAME_TIME "Time"
-#define GAUGE_NAME_TIMING_ADVANCE "Ignition: Timing"
+#define GAUGE_NAME_TIMING_ADVANCE "Timing: base ignition"
 #define GAUGE_NAME_TPS "TPS"
 #define GAUGE_NAME_TPS2 "TPS2"
 #define GAUGE_NAME_TRG_ERR "Trigger Error Counter"
@@ -1297,7 +1297,7 @@
 #define show_Proteus_presets false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 86398677
+#define SIGNATURE_HASH 1918401005
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1743,7 +1743,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.09.02.BMW-ECU.86398677"
+#define TS_SIGNATURE "rusEFI main.2024.09.03.BMW-ECU.1918401005"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
